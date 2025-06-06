@@ -1,0 +1,27 @@
+.section
+  padding: 4rem 2rem
+  text-align: center
+  &.hero
+    background-color: $light-gray
+  &.servicios
+    background-color: white
+  &.contacto
+    background-color: $light-gray
+    form
+      display: flex
+      flex-direction: column
+      gap: 1rem
+      max-width: 400px
+      margin: 0 auto
+      input, textarea
+        padding: 0.75rem
+        border: 1px solid #ccc
+        border-radius: 4px
+      button
+        background-color: $primary-color
+        color: white
+        border: none
+        padding: 0.75rem
+        cursor: pointer
+        &:hover
+          background-color: darken($primary-color, 10%)
